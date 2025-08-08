@@ -1,1 +1,49 @@
-{"name": "westpacs", "version": "1.0.0", "description": "A project for Westpacs.", "main": "index.js", "scripts": {"test": "echo 'Error: no test specified' && exit 1"}, "repository": {"type": "git", "url": "git+https://github.com/alzeidyk-svg/westpac.git"}, "keywords": ["Westpacs", "example"], "author": "Your Name", "license": "ISC"}
+{
+  "name": "westpacs",
+  "version": "1.0.0",
+  "description": "A project for Westpacs.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "health-check": "node health-check.js"
+  },
+  "dependencies": {
+    "@radix-ui/react-slot": "^1.2.3",
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "autoprefixer": "^10.4.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
+    "lucide-react": "^0.400.0",
+    "next": "^15.0.0",
+    "postcss": "^8.4.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "tailwind-merge": "^2.0.0",
+    "tailwindcss": "^3.4.0",
+    "tailwindcss-animate": "^1.0.7",
+    "typescript": "^5.0.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.8.0",
+    "@eslint/eslintrc": "^3.3.1",
+    "eslint": "^8.0.0",
+    "eslint-config-next": "^15.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alzeidyk-svg/westpac.git"
+  },
+  "keywords": [
+    "Westpacs",
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Tailwind"
+  ],
+  "author": "Your Name",
+  "license": "ISC"
+}

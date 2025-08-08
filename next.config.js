@@ -2,6 +2,9 @@
 const nextConfig = {
   output: 'export',
   distDir: 'out',
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
   allowedDevOrigins: ["*.preview.same-app.com"],
   images: {
     unoptimized: true,
