@@ -1,4 +1,4 @@
-// Updated file content with 'Westpac' replaced by 'Westpacs'
+// Updated file content for Westpacs project
 
 // Example code
 
